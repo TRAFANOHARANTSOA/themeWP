@@ -1,0 +1,76 @@
+/*
+Theme Name: Astral
+Text Domain: Myfirstwptheme
+Version: 1.5
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: This is my first wordpress theme
+*/
+
+
+html, body{
+  font-family: "Helvetica Neue LT Std";
+}
+
+.logoastral{
+  width:100%;
+}
+
+.logoastral a img{
+  width: 50px!important;
+  height: 50px;
+  margin-left: 50px;
+  margin-right:-4rem;
+  align-items: center;
+
+}
+.logoastral a, .navbarmenucollapse ul li a{
+text-decoration: none;
+color:white;
+margin-right: 5rem;
+}
+
+.navbarmenucollapse {
+  width:40%;
+}
+
+.headermenu{
+  height:50vh;
+}
+.aboutuscontainer{
+width: 50%;
+position: absolute;
+top:20%;
+right:50%;
+transform:translateX(50%);
+}
+
+hr{
+  height: 10px!important;
+  width: 20%;
+  border: none;
+  box-shadow: none;
+  background-color: white;
+  margin: auto;
+  }
+
+.aboutusimg img{
+  width:100%!important;
+  height:60vh;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+.aboutusimg{
+  position:relative;
+}
+
+.testimonialcontainerbg{
+width: 70%;
+position:absolute;
+top:90%;
+right:50%;
+transform:translate(50%,50%);
+background-color:white;
+}
