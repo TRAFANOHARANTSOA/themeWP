@@ -1,0 +1,27 @@
+
+
+html, body{
+  font-family: "Helvetica Neue LT Std";
+}
+
+.bgimage{
+  background-image: url("image/imageheader.png");
+  background-repeat:no-repeat;
+  width:100vw;
+}
+.aboutussection{
+  background-image:url("image/interstellar.jpg");
+  background-repeat: no-repeat;
+}
+
+.footersection{
+  background-image:url("image/imagefooter.png");
+  background-repeat: no-repeat;
+}
+
+/*.astrallogo{
+  width:40px;
+}*/
+.searchicon{
+  width:20px;
+}
