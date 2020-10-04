@@ -26,7 +26,6 @@
             <?php the_custom_logo() ?>
             <a href=" " class="title"><?php bloginfo('name'); ?></a>
             <a href=""><?php bloginfo('description'); ?></a>
-          </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,6 +36,7 @@
                     'container' => false,
                     'menu_class' => 'navbar-nav mr-auto',
                     ]) ?>
+
 
             </div>
       </nav>

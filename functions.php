@@ -16,12 +16,14 @@ function montheme_register_assets(){
 
   wp_enqueue_style('Myfirstwptheme', get_stylesheet_uri(), array());
 }
+
 add_action('wp_enqueue_scripts', 'montheme_register_assets');
 
 function montheme_document_title_parts($title) {
   unset($title['tagline']);
   return $title;
 }
+
 add_filter('document_title_parts', 'montheme_document_title_parts');
 
 
